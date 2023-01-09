@@ -1,4 +1,4 @@
-# MapasNew
+# Mapas Angular - MapBox
 
 Proyecto realizado con Angular, utilizando el proveedor de mapas MapBox
 
