@@ -14,10 +14,12 @@ export class BtnDeletePolylineComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //comprobar si la ruta a sido dibujada correctamente en el mapa
   get isPolylineReady():boolean{
     return this.mapSvc.polyline;
   };
 
+  //eliminar la ruta dibujada en el mapa
   deletePolyline(){
     this.mapSvc.deletePolyline();
 

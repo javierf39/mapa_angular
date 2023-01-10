@@ -14,6 +14,7 @@ export class BtnMyLocationComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //en caso de estar en otro lugar del mapa, esta funcion nos permite volver al punto de nuestra ubicacion
   goToMyLocation(){
     this.mapsSvc.flyTo(this.placesSvc.userLocation!);
     this.mapsSvc.deleteLayer(this.placesSvc.userLocation!);

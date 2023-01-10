@@ -16,8 +16,8 @@ export class SearchBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //funcion que devuelve los resultado de la busqueda de lugares despues de 350ms
   onQueryChanged(query:string){
-
     setTimeout(() => {
       this.placeSvc.getPlacesByQuery(query);
     }, 350);

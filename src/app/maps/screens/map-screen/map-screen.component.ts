@@ -14,6 +14,7 @@ export class MapScreenComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //comprobar si la localizacion a cargado correctamente
   get isUserLocationready(){
     return this.mapSvc.isUserLocationReady;
   }
